@@ -1,0 +1,42 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "storageAccountResourceGroupName": {
+      "value": "{{storageAccountResourceGroupName}}"
+      },
+    "VmImageVhdUri": {
+      "value": "{{VmImageVhdUri}}"
+    },
+    "rdshNamePrefix": {
+      "value": "{{rdshNamePrefix}}"
+    },
+    "rdshNumberOfInstances": {
+      "value": {{rdshNumberOfInstances}}
+    },
+    "rdshVmSize": {
+      "value": "{{rdshVmSize}}"
+    },
+    "existingDomainUPN": {
+      "value": "{{existingDomainUPN}}"
+    },
+    "existingDomainPassword": {
+      "value": "{{existingDomainPassword}}"
+    },
+    "virtualNetworkResourceGroupName": {
+      "value": "{{virtualNetworkResourceGroupName}}"
+    },
+    "existingVnetName": {
+      "value": "{{existingVnetName}}"
+    },
+    "existingSubnetName": {
+      "value": "{{existingSubnetName}}"
+    },
+    "registrationToken": {
+      "value": "{{registrationToken}}"
+    },
+    "baseUrl": {
+      "value": "https://raw.githubusercontent.com/viswanadhamkudapu/Repository/master/RdmiAddHosts/"
+    }
+  }
+}
